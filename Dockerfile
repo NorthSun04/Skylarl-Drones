@@ -1,6 +1,6 @@
 FROM python:3.10-slim
 
-WORKDIR /app/skylark-bi-agent
+WORKDIR /app
 
 COPY skylark-bi-agent/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
